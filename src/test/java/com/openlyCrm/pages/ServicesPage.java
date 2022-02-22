@@ -43,7 +43,44 @@ public class ServicesPage extends BasePage{
     @FindBy(xpath = "(//span[@class='idea-rating-block-content idea-rating-block-content-ext-standart']/span/span)[2]")
     public WebElement rating2;
 
+    @FindBy(xpath = "//a[text()='date added']")
+   public WebElement dateadded;
 
+    @FindBy(xpath = "(//div[@class='idea-owner'])[1]/.")
+    public WebElement lastdate;
+
+    @FindBy(xpath = "//a[text()='rating']")
+    public  WebElement rating;
+
+    @FindBy(xpath = "//span[@title='Votes - 2 (2 ayes and 0 noes)']")
+    public WebElement rating1in2si;
+
+    @FindBy(xpath = "//span[text()='New category']")
+    public WebElement newCategory;
+
+    @FindBy(name = "NAME")
+    public WebElement nameC;
+
+    @FindBy(name = "CODE")
+    public WebElement codeC;
+
+    @FindBy(name = "save_and_add")
+    public WebElement saveAndAdd;
+
+    @FindBy(name = "IBLOCK_SECTION_ID")
+ public  WebElement ParentSection;
+
+    @FindBy(className = "bx-core-adm-icon-close")
+ public WebElement close;
+
+    @FindBy(xpath = "//span[text()='Lists']")
+ public WebElement Listspage;
+
+    @FindBy(xpath = "//span[text()='Print']")
+ public WebElement printbutton;
+
+    @FindBy(css = "action-button")
+ public WebElement  printit;
 
 
 

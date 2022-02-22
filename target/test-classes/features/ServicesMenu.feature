@@ -3,7 +3,7 @@ Feature: User should be able to locate ServicesMenu
 Background:
   Given the user on the homepage
     When user clicks Services button
-@OP-956
+@OP-956 @wip
         Scenario: Send new Idea
           When user clicks New Idea button
           When user enters sth as title

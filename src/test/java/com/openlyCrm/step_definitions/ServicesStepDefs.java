@@ -46,7 +46,7 @@ public class ServicesStepDefs {
         js.executeScript("window.scrollBy(0,250)");
         BrowserUtils.waitFor(2);
         mainPage.Services.click();
-        BrowserUtils.waitFor(2);
+        BrowserUtils.waitFor(4);
         mainPage.Ideas.click();
         BrowserUtils.waitFor(3);
 
@@ -65,7 +65,8 @@ public class ServicesStepDefs {
     @Then("user on the New Ideas Page")
     public void user_on_the_Ideas_Page() {
         String actualTitle=Driver.get().getTitle();
-        Assert.assertEquals("(4) Suggest New Idea!",actualTitle);
+        //Assert.assertEquals("(4) Suggest New Idea!",actualTitle);
+        Assert.assertTrue(actualTitle.contains("Suggest New Idea!"));
     }
 
     @When("user enters sth as title")
@@ -161,7 +162,8 @@ public class ServicesStepDefs {
     public void user_should_be_able_to_add_step() {
         BrowserUtils.waitFor(2);
      String title= Driver.get().getTitle();
-     Assert.assertEquals(title,"(15) something");
+    // Assert.assertEquals(title,"(15) something");
+     Assert.assertTrue(title.contains("something"));
 
     }
 

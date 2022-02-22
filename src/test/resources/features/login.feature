@@ -1,4 +1,4 @@
-@login
+@OP-955
   Feature: User should be able to login
 
     Scenario: Login with valid credentials

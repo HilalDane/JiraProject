@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features", //in default locator doesnt know where my file
         glue = "com/openlyCrm/step_definitions",  //cukesrunner doesnt know where my step definitions locaoted
         dryRun = false,
-        tags = "@wip"
+        tags = "@OP-962"
 
 )
 public class CukesRunner {
