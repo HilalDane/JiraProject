@@ -1,0 +1,108 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18935000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user on the homepage",
+            "match": {
+              "location": "com.openlyCrm.step_definitions.ServicesStepDefs.the_user_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11735000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks Services button",
+            "match": {
+              "location": "com.openlyCrm.step_definitions.ServicesStepDefs.user_clicks_Services_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-18T12:58:17.491Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.openlyCrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "The User Dislikes Idea",
+        "description": "",
+        "id": "dislike-idea;the-user-dislikes-idea",
+        "after": [
+          {
+            "result": {
+              "duration": 161000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.openlyCrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6180000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks minus button",
+            "match": {
+              "location": "com.openlyCrm.step_definitions.TC002StepDefs.the_user_clicks_minus_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the number of rating should be change",
+            "match": {
+              "location": "com.openlyCrm.step_definitions.TC002StepDefs.the_number_of_rating_should_be_change()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Dislike Idea",
+    "description": "",
+    "id": "dislike-idea",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TC002.feature",
+    "tags": []
+  }
+]
